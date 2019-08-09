@@ -1,0 +1,21 @@
+package:
+    name: "hello"
+    version: "7.0"
+
+source:
+    git_rev: "0.1"
+    git_url: "https://github.com/johnlarson/hello_conda.git"
+
+requirements:
+    build:
+        - python
+        - setuptools
+
+    run:
+        - python
+
+test:
+    imports: "hello"
+
+about:
+    home: "https://github.com/johnlarson/hello"
