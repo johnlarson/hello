@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='hello',
-    version='0.2.4',
+    version='0.2.5',
     author='John',
     author_email='jlarson@idbydna.com',
     description='Says 'Hello, World'.',
