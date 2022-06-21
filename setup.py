@@ -14,7 +14,7 @@ setuptools.setup(
     url='https://github.com/johnlarson/hello_conda',
     packages=setuptools.find_packages(),
     install_requires=[
-        'numpy==1.17.0',
+        'numpy==1.22.0',
         'sympy==1.4',
     ],
     classifiers=[
